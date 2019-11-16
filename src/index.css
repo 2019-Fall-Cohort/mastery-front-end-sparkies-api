@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.inventor-card {
+    border: 2px solid black;
+    background: lightgray;
+    padding: 2rem;
+    margin:2rem;
+    max-width: 20rem;
+}
+
+.inventor-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.inventors-button {
+    margin: 2rem;
 }
