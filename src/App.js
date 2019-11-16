@@ -6,16 +6,16 @@ import Inventors from './components/inventors'
 class App extends Component{
 
   render() {
-  return (
-    <div className="App">
-      <header className="header">
-        <h1>Sparkies</h1>
-        <button className="inventors-button" onClick={this.renderInventors}>Get Inventors!</button>
-     </header>
-     
-     <Render render={this.state.render}/>
-      {/* <Inventors inventors={this.state.inventors}/> */}
-   </div>
+    return (
+      <div className="App">
+        <header className="header">
+          <h1>Sparkies</h1>
+          {/* <button className="inventors-button" onClick={this.renderInventors}>Get Inventors!</button> */}
+        </header>
+      
+        {/* <Render render={this.state.render}/> */}
+        <Inventors inventors={this.state.inventors}/>
+      </div>
   )}
   
   state = {
