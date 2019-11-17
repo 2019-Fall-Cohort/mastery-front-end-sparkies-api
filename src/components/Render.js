@@ -1,7 +1,6 @@
 import React from 'react'
 import Inventors from './components/inventors'
 
-
 const Render = props => {
     if (!props.show) {
         return null;

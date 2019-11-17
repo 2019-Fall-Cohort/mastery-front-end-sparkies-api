@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Inventors = ({ inventors }) => {
+
+    // state = {
+    //     renderedExperiments: false
+    //    }
+
     return(
         <div className = 'inventor-cards'>
             {inventors.map((inventor) => 
@@ -11,6 +16,22 @@ const Inventors = ({ inventors }) => {
                     </div>
             )}
        </div>
-    )}
+    )
+
+}
+
+// state = {
+//     experiments: []
+// };
+
+
+// componentDidMount() {
+//     fetch("http://localhost:8080/experiments")
+//     .then(res => res.json())
+//     .then((data) => {
+//       this.setState({ experiments: data })
+//   })
+//   .catch(console.log)
+//   };
 
   export default Inventors
