@@ -21,9 +21,6 @@ class App extends Component{
           this.setState({renderedInventors:true});
         }}
         >Get Inventors!</button>
-
-      
-        
       </div>
   )}
   
@@ -40,11 +37,7 @@ componentDidMount() {
   .catch(console.log)
 };
 
-
 }
-
-
-
 
 export default App;
 
